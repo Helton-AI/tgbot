@@ -1,0 +1,14 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "env-cmd -f .env node test.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
